@@ -10,9 +10,9 @@
 [x] Confirm supplementary material
 [x] Confirm no private submission material is included
 [ ] Confirm Genome Biology historical status separately
-[ ] Confirm new repository URL in GPB manuscript
+[x] Confirm new repository URL in GPB manuscript
 [x] Commit clean repository
-[ ] Push repository
+[x] Push repository
 [ ] Create v1.0.0 tag
 [ ] Create GitHub Release
 [ ] Archive release with Zenodo
@@ -25,7 +25,7 @@
 [x] Choose repository LICENSE (MIT License)
 [x] Final repository audit
 [x] Commit clean publication repository
-[ ] Push to GitHub
+[x] Push to GitHub
 [ ] Create tag v1.0.0
 [ ] Create GitHub Release
 [ ] Archive release with Zenodo
