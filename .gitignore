@@ -1,0 +1,41 @@
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+
+# Python / notebooks / OS
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Large single-cell data and model artefacts (not redistributed)
+*.h5ad
+*.h5
+*.ckpt
+*.pt
+*.pth
+models/
+!src/models/
+checkpoints/
+cache/
+tmp/
+temp/
+*.log
+
+# Raw / processed / external input data (see docs/DATA_AVAILABILITY.md)
+data/raw/
+data/processed/
+data/external/
+
+# Regenerated intermediates written by the config-driven pipeline
+results/tables/
+results/embeddings/
+results/logs/
+results/figures/
+
+# Private submission material must never be committed
+journal_submission/
+cover_letters/
+private_metadata/
